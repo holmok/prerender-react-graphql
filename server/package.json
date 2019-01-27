@@ -1,0 +1,33 @@
+{
+  "name": "prerender-react-graphql-client-server",
+  "version": "1.0.0",
+  "description": "graphql server prerender-react-graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holmok/prerender-react-graphql.git"
+  },
+  "keywords": [
+    "koa",
+    "apollo-server",
+    "graphql"
+  ],
+  "author": "Christopher Holmok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/holmok/prerender-react-graphql/issues"
+  },
+  "homepage": "https://github.com/holmok/prerender-react-graphql#readme",
+  "dependencies": {
+    "apollo-server-koa": "^2.3.1",
+    "graphql": "^14.1.1",
+    "koa": "^2.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "standard": "^12.0.1"
+  }
+}

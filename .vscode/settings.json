@@ -1,0 +1,7 @@
+{
+  "standard.workingDirectories": [
+    "client/src/**/*.js",
+    "server/**/*.js"
+  ],
+  "git.ignoreLimitWarning": true
+}
